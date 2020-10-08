@@ -1,0 +1,70 @@
+/* .navbar {
+    display: -webkit-flex;
+    width: 100%;
+    border-style: solid;
+    border-top-color:white ;
+    border-bottom-color: black;
+    border-left-color:white ;
+    border-right-color:white ;
+    background-color: white;
+    border-width: 1px;
+    justify-content: space-between;
+} */
+/* #box2 {
+    height: 10%;
+    background-color:#f27724;
+    width: fit-content;
+    justify-content: flex-start;
+}
+#box3 {
+    width: 100px;
+}  */
+#icon1 {
+    font-size: 3.5rem;
+    color: whitesmoke;
+    /* display:inline-block;
+    vertical-align: middle; */
+}
+#icon2 {
+    color: black;
+    border-style: none;
+}
+#icon3 {
+    color: black;
+}
+.example-toolbar {
+    height: 10%;
+    justify-content: space-between;
+    border-style: solid;
+    border-top-color:white ;
+    border-bottom-color: black;
+    border-left-color:white ;
+    border-right-color:white ;
+    background-color: white;
+    border-width: 1px;
+}
+#user {
+    color: black;
+    font-style: normal;
+    /* visibility: visible; */
+}
+#user.show {
+    visibility: visible;
+    
+}
+p-toolbar {
+    background: white;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom-style: solid;
+    border-bottom-color: black;
+    /* height: 140px; */
+}
+.p-toolbar-group-left {
+    background-color: #f27724;
+    height: 100%;
+}
+
+
+

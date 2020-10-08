@@ -1,0 +1,55 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand"
+       href="#"><i class="fas fa-user-clock"></i> Resource Management </a>
+    <div class="collapse navbar-collapse"
+         id="navbarNav">
+        <ul class="navbar-nav">
+            <li class="nav-item active">
+                <a class="nav-link"
+                   [routerLink]="['register']" routerLinkActive='active'>
+                   SignUp </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link"
+                [routerLink]="['login']" routerLinkActive='active'>Login</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<!-- 
+
+<toolbar [style]="{'background':'white','border-left':'none','border-right':'none','border-top':'none','border-bottom-color':'black','height':'100px','padding':'0','left':'1em'}" >
+    <div class="p-toolbar-group-left" [style]="{'align-items':'center'}">
+        <div [style]="{'align-items':'flex-end'}">
+            <i id="icon1" class="pi pi-microsoft" ></i>
+            <span [style]="{'font-size':'20px','color':'white'}">Resource Management</span>
+        </div>
+    </div>
+    <div class="p-toolbar-group-middle">
+        <span>{{projectname}}</span>
+    </div>
+    <div class="p-toolbar-group-right">
+        <p-button id="icon2" icon="pi pi-user" (click)="menu.toggle($event)" [style]="{'color':'black','background-color':'white','border-style':'none'}"></p-button>
+        <p-menu #menu [popup]="true" [model]="items" ><button type="button" pButton label="profile" (click)="menu.toggle($event)"></button></p-menu>
+        <button (click) = "logout()">Log out</button>
+
+        <span id="user" style="visibility: hidden;" >{{username}}</span>
+        <p-button id="icon3" icon="pi pi-question-circle" [style]="{'color':'black','background-color':'white','border-style':'none'}"></p-button>
+    </div>
+
+    <div class="collapse navbar-collapse"
+    id="navbarNav">
+   <ul class="navbar-nav">
+       <li class="nav-item active">
+           <a class="nav-link"
+              [routerLink]="['register']" routerLinkActive='active'>
+              Register </a>
+       </li>
+       <li class="nav-item">
+           <a class="nav-link"
+           [routerLink]="['login']" routerLinkActive='active'>Login</a>
+       </li>
+   </ul>
+</div>
+</toolbar> -->
